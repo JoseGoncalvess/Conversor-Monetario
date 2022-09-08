@@ -1,36 +1,50 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link
+      rel="shortcut icon"
+      href="./asset/img/favicon.png"
+      type="image/x-icon"
+    />
     <title>Converssor Monetário</title>
-</head>
-<body>
+  </head>
+  <body>
     <main>
-        <div id="imagem"><img src="#" alt=""></div>
-        <p>Converssor Monetário</p>
-        <form>
-            
-            <label for="money"> Valor a Ser ConvertidoR$</label>
-            <input type="number" maxlength="99.9999" required step="0.5" placeholder="Digite um Valor (R$)" style="text-align: center;"> 
+      <div id="imagem"><img src="./asset/img/icon  convert.png" alt="" /></div>
+      <p>Converssor Monetário</p>
+      <form>
+        <label for="money"> Valor a Ser ConvertidoR$</label>
+        <input
+          type="number"
+          maxlength="99.9999"
+          required
+          step="0.5"
+          placeholder="Digite um Valor (R$)"
+          style="text-align: center"
+        />
 
-            <div>
-                <input type="radio" name="Dolar" id="dolar" >
-                <label for="Dolar">Dolar</label>
+        <div>
+          <input type="radio" name="money" id="dolar" />
+          <label for="Dolar">Dolar</label>
 
-               <input type="radio" name="Euro" id="euro">
-               <label for="euro">Euro</label>
+          <input type="radio" name="money" id="euro" />
+          <label for="euro">Euro</label>
 
-               <input type="radio" name="Biticoin" id="biticoin">
-               <label for="biticoin">Biticoin</label>
+          <input type="radio" name="money" id="biticoin" />
+          <label for="biticoin">Biticoin</label>
 
-               <input type="radio" name="tay" id="tai">
-            </div>
+          <input type="radio" name="money" id="baht" />
+          <label for="baht">Baht</label>
+        </div>
 
-            <button>Converter</button>
-            <button>Limpar</button>
-        </form>
+        <button onclick="converter()">Converter</button>
+        <button onclick="limpar()">Limpar</button>
+      </form>
     </main>
-</body>
+    <script src="./assents/main.js"></script>
+  </body>
 </html>
