@@ -38,7 +38,7 @@ main{
   padding: 10px;
   font-weight: 500;
   width: 300px;
-  height: 350px;
+  height: 400px;
 }
 #valor{
 background-color: aliceblue;
@@ -70,7 +70,6 @@ transition: 1s;
  }
 p{
   text-align: center;
-margin-bottom: 5px;
 background-color: #3A9F95;
 border-radius: 10px;
 color: rgb(255, 255, 255);
