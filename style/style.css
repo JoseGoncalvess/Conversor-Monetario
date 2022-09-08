@@ -1,4 +1,23 @@
 @charset "TF-8";
+/*fontes Importada*/
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
 *{
   box-sizing: border-box;
+  font-family: 'Dosis', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: rgb(219, 217, 217);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+main{
+  background-color: white;
+  padding: 10px;
+  
 }
