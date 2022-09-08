@@ -39,6 +39,13 @@ main{
   width: 300px;
   height: 350px;
 }
+#valor{
+background-color: aliceblue;
+color: black;
+border: none;
+border-radius: 2px;
+padding: 2px;
+}
 #camp-button{
   display: flex;
   justify-content: space-around;
