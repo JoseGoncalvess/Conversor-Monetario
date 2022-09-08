@@ -27,7 +27,7 @@
         style="text-align: center"
       />
 
-      <div>
+      <div id="moedas">
         <input
           type="radio"
           name="moedaE"
@@ -36,19 +36,20 @@
           tabindex="0"
         />
         <label for="dolar">Dolar</label>
-
         <input type="radio" name="moedaE" id="euro" value="Euro" />
         <label for="euro">Euro</label>
-
         <input type="radio" name="moedaE" id="biticoin" value="Biticoin" />
         <label for="biticoin">Biticoin</label>
-
         <input type="radio" name="moedaE" id="baht" value="Baht" />
         <label for="baht">Baht</label>
       </div>
 
-      <button onclick="converter()" class="btnconverte">Converter</button>
-      <button type="reset" onclick="limpar()">Limpar</button>
+      <div id="camp-button">
+        <button id="ctr" onclick="converter()" class="btnconverte">
+          Converter
+        </button>
+        <button id="ctr" type="reset" onclick="limpar()">Limpar</button>
+      </div>
 
       <p id="ress">Digite uma Moeda para ser Convertida!</p>
     </main>
