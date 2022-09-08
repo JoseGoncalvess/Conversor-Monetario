@@ -38,7 +38,10 @@ main{
   padding: 10px;
   font-weight: 500;
   width: 300px;
-  height: 400px;
+  height: 450px;
+}
+div{
+  margin: 8px;
 }
 #valor{
 background-color: aliceblue;
@@ -62,6 +65,9 @@ text-align: center;
 box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.378);
 margin: 5px;
 transition: 1s;
+ }
+ #push{
+  text-align: center;
  }
 
  #ctr:hover{
