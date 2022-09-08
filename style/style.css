@@ -33,6 +33,7 @@ body{
 }
 main{
   background-color: rgb(118, 118, 118);
+  box-shadow: 5px 5px 5px 5px rgb(65, 65, 65);
   border-radius: 10px;
   padding: 10px;
   font-weight: 500;
@@ -60,6 +61,12 @@ border-radius: 5px;
 text-align: center;
 box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.378);
 margin: 5px;
+transition: 1s;
+ }
+
+ #ctr:hover{
+  background-color: white;
+  color: #3b9e94;
  }
 p{
   text-align: center;
@@ -69,16 +76,17 @@ border-radius: 10px;
 color: rgb(255, 255, 255);
 
 }
+#baixo{
+  width: 290px;
+  background-color: rgb(207, 206, 206);
+}
 #moedas{
  text-align: center;
 }
  #ress{
   text-align: center;
-  padding: 2px;
-  margin-right: -10px;
-  margin-left: -10px;
-  margin-bottom: 13px;
-  background-color: darkgrey;
+  background-color: rgb(183, 181, 181);
+  text-shadow: 1px 0px 8px  rgb(0, 0, 0);
  }
 
  #imagem{
